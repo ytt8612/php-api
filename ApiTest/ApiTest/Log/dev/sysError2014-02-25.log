@@ -1,0 +1,978 @@
+[2014-02-25 09:56:31]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 09:58:25]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKO4GeBNcQzl3E046R0jRs4z8EQt1qvs7k',
+  'do' => 'book_comments',
+)
+------------------------------------------------------------------------------------
+Invalid Do
+D:\wamp\www\ApiTest\Core\ApiDispatcher.php Line 70
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#1 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#2 {main}
+<===================================================================================
+
+
+[2014-02-25 10:05:05]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKEcgbroYSs1LxhoMf9sgILz8EQt1qvs7k',
+  'data' => 
+  array (
+    'pub_id' => '27',
+  ),
+  'do' => 'book_detail',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Detail.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Detail->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 11:10:16]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKO4GeBNcQzl3E046R0jRs4z8EQt1qvs7k',
+  'data' => 
+  array (
+    'pub_id' => '27',
+  ),
+  'do' => 'book_detail',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Detail.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Detail->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 11:48:53]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKgH4J%2FqmaP0M4mroA3DQW%2BebVV3wGFV5j',
+  'data' => 
+  array (
+    'pub_id' => '27',
+  ),
+  'do' => 'book_detail',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Detail.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Detail->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 11:49:22]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK2D%2FT%2FpNF8a3x4CGbiRuh%2FEbDvHxyCI5n',
+  'data' => 
+  array (
+    'pub_id' => '27',
+  ),
+  'do' => 'book_loan',
+)
+------------------------------------------------------------------------------------
+Invalid Param [content]
+D:\wamp\www\ApiTest\Core\ApiApplication.php Line 45
+#0 D:\wamp\www\ApiTest\Core\ApiApplication.php(14): Core_ApiApplication->getParams()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(72): Core_ApiApplication->__construct(Object(Core_ApiRequest))
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#3 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-25 11:50:00]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK2D%2FT%2FpNF8a3x4CGbiRuh%2FEbDvHxyCI5n',
+  'data' => 
+  array (
+    'pub_id' => '27',
+    'content' => '借书发起',
+  ),
+  'do' => 'book_loan',
+)
+------------------------------------------------------------------------------------
+Invalid Param [loan_time]
+D:\wamp\www\ApiTest\Core\ApiApplication.php Line 45
+#0 D:\wamp\www\ApiTest\Core\ApiApplication.php(14): Core_ApiApplication->getParams()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(72): Core_ApiApplication->__construct(Object(Core_ApiRequest))
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#3 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-25 11:50:26]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK2D%2FT%2FpNF8a3x4CGbiRuh%2FEbDvHxyCI5n',
+  'data' => 
+  array (
+    'pub_id' => '27',
+    'content' => '借书发起',
+    'loan_time' => '2014-03-01',
+  ),
+  'do' => 'book_loan',
+)
+------------------------------------------------------------------------------------
+Missing argument 8 for Service_Book::addLoanApplication(), called in D:\wamp\www\ApiTest\ApiTest\App\Book\Loan.php on line 23 and defined
+D:\wamp\www\ApiTest\ApiTest\Service\Book.php Line 83
+#0 D:\wamp\www\ApiTest\ApiTest\Service\Book.php(83): Core_ApiErrorHandler::exceptionHandler(2, 'Missing argumen...', 'D:\wamp\www\Api...', 83, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Book\Loan.php(23): Service_Book->addLoanApplication('1', '3', '27', '21', 'HTML5??????????...', '????????????', '2014-03-01')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Loan->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-25 11:52:02]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK2D%2FT%2FpNF8a3x4CGbiRuh%2FEbDvHxyCI5n',
+  'data' => 
+  array (
+    'mid' => '2',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+Undefined index: result
+D:\wamp\www\ApiTest\ApiTest\Vo\Messageloan.php Line 17
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\Messageloan.php(17): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 17, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php(22): Vo_Messageloan::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-25 11:52:56]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK2D%2FT%2FpNF8a3x4CGbiRuh%2FEbDvHxyCI5n',
+  'data' => 
+  array (
+    'mid' => '2',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 12
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 11:54:50]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK6FeRjwa1k6p%2BR%2Bu4kVaaRXNqhWPNsobw',
+  'do' => 'book?_loan',
+)
+------------------------------------------------------------------------------------
+Invalid Do
+D:\wamp\www\ApiTest\Core\ApiDispatcher.php Line 70
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#1 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#2 {main}
+<===================================================================================
+
+
+[2014-02-25 13:21:50]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK6FeRjwa1k6p%2BR%2Bu4kVaaRXNqhWPNsobw',
+  'data' => 
+  array (
+    'mid' => '2',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+Undefined index: from_userid
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#3 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-25 13:21:59]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK6FeRjwa1k6p%2BR%2Bu4kVaaRXNqhWPNsobw',
+  'data' => 
+  array (
+    'mid' => '2',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+Undefined index: from_userid
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#3 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-25 13:29:38]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK6FeRjwa1k6p%2BR%2Bu4kVaaRXNqhWPNsobw',
+  'data' => 
+  array (
+    'pub_id' => '27',
+    'content' => '借书发起',
+    'loan_time' => '2014-03-01',
+  ),
+  'do' => 'book_loan',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Loan.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Loan->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 13:30:59]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBwUKRcc8WDbYQNI29kaVIhMr3W97n1%2F2',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 13:58:26]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKpuNKwxQUx8UjcOHJfQCghJARckLjmP5M',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 13:58:27]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKpuNKwxQUx8UjcOHJfQCghJARckLjmP5M',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 13:58:31]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKwmjHTJsF3KPJ69eMOt2SxObVV3wGFV5j',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:01:36]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKUvCHgEteblayHNJ6QQ0Y5u5n01hyDcZv',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:01:38]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKUvCHgEteblayHNJ6QQ0Y5u5n01hyDcZv',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:02:07]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKaXvqsJhLWnls9xk0jHAcIHNqhWPNsobw',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:02:08]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKaXvqsJhLWnls9xk0jHAcIHNqhWPNsobw',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:02:08]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKaXvqsJhLWnls9xk0jHAcIHNqhWPNsobw',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:04:08]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKiU6AHp7g%2B4sdyKzjDn%2FELFD2Bu9roF2m',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:04:08]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKiU6AHp7g%2B4sdyKzjDn%2FELFD2Bu9roF2m',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:08:56]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKiU6AHp7g%2B4sdyKzjDn%2FELFD2Bu9roF2m',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:08:59]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKiU6AHp7g%2B4sdyKzjDn%2FELFD2Bu9roF2m',
+  'data' => 
+  array (
+    'mid' => '4',
+  ),
+  'do' => 'message_loanbook',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Message\Loanbook.php Line 11
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Loanbook->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:30:06]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK5e%2B2ZnKjMkjh%2BxHK%2BVOfQpARckLjmP5M',
+  'data' => 
+  array (
+    'pub_id' => '26',
+  ),
+  'do' => 'book_commentlist',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Commentlist.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Commentlist->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 14:40:59]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKWT2oM7bhBt1t6UZENBXZUdj1avUlNB41',
+  'data' => 
+  array (
+    'pub_id' => '27',
+    'content' => '借书发起',
+    'loan_time' => '2014-03-01',
+  ),
+  'do' => 'book_loan',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Loan.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Loan->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-25 16:46:51]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKjI69Z9o806LZHo%2FmVqAmjFD2Bu9roF2m',
+  'data' => 
+  array (
+    'pub_id' => '27',
+    'content' => '借书发起',
+    'loan_time' => '2014-03-01',
+  ),
+  'do' => 'book_loan',
+)
+------------------------------------------------------------------------------------
+Undefined index: userid
+D:\wamp\www\ApiTest\ApiTest\Service\Book.php Line 113
+#0 D:\wamp\www\ApiTest\ApiTest\Service\Book.php(113): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 113, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Book.php(87): Service_Book->createLoanBookOrder('1', '3', '27', '2014-03-01', 1)
+#2 D:\wamp\www\ApiTest\ApiTest\App\Book\Loan.php(24): Service_Book->addLoanApplication('1', '3', '27', 'HTML5??????????...', '2014-03-01', 1, '????????????')
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Loan->run()
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#5 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#6 {main}
+<===================================================================================
+
+
+[2014-02-25 16:47:08]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKjI69Z9o806LZHo%2FmVqAmjFD2Bu9roF2m',
+  'data' => 
+  array (
+    'pub_id' => '27',
+    'content' => '借书发起',
+    'loan_time' => '2014-03-01',
+  ),
+  'do' => 'book_loan',
+)
+------------------------------------------------------------------------------------
+Undefined index: deposite
+D:\wamp\www\ApiTest\ApiTest\Service\Book.php Line 113
+#0 D:\wamp\www\ApiTest\ApiTest\Service\Book.php(113): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 113, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Book.php(87): Service_Book->createLoanBookOrder('1', '3', '27', '2014-03-01', 1)
+#2 D:\wamp\www\ApiTest\ApiTest\App\Book\Loan.php(24): Service_Book->addLoanApplication('1', '3', '27', 'HTML5??????????...', '2014-03-01', 1, '????????????')
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Loan->run()
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#5 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#6 {main}
+<===================================================================================
+
+
+[2014-02-25 16:47:23]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKjI69Z9o806LZHo%2FmVqAmjFD2Bu9roF2m',
+  'data' => 
+  array (
+    'pub_id' => '27',
+    'content' => '借书发起',
+    'loan_time' => '2014-03-01',
+  ),
+  'do' => 'book_loan',
+)
+------------------------------------------------------------------------------------
+Undefined index: deposite
+D:\wamp\www\ApiTest\ApiTest\Service\Book.php Line 114
+#0 D:\wamp\www\ApiTest\ApiTest\Service\Book.php(114): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 114, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Book.php(87): Service_Book->createLoanBookOrder('1', '3', '27', '2014-03-01', 1)
+#2 D:\wamp\www\ApiTest\ApiTest\App\Book\Loan.php(24): Service_Book->addLoanApplication('1', '3', '27', 'HTML5??????????...', '2014-03-01', 1, '????????????')
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Loan->run()
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#5 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#6 {main}
+<===================================================================================
+
+
+[2014-02-25 17:22:13]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKjI69Z9o806LZHo%2FmVqAmjFD2Bu9roF2m',
+  'data' => 
+  array (
+    'order_id' => '4',
+  ),
+  'do' => 'order_detail',
+)
+------------------------------------------------------------------------------------
+Undefined index: msg_id
+D:\wamp\www\ApiTest\ApiTest\App\Order\Detail.php Line 19
+#0 D:\wamp\www\ApiTest\ApiTest\App\Order\Detail.php(19): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 19, Array)
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Order_Detail->run()
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#3 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-25 18:02:42]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0%2FqvRrThlPJ6dyBh8ROzpdj1avUlNB41',
+  'data' => 
+  array (
+    'pub_id' => '26',
+  ),
+  'do' => 'book_commentlist',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Commentlist.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Commentlist->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+

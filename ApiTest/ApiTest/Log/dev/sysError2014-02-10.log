@@ -1,0 +1,242 @@
+[2014-02-10 15:21:45]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'pub_id' => '27',
+    'content' => '评论测试',
+    'points' => '4',
+  ),
+  'do' => 'book_comment',
+)
+------------------------------------------------------------------------------------
+A non well formed numeric value encountered
+D:\wamp\www\ApiTest\Core\Db\ApiTable.php Line 188
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(8, 'A non well form...', 'D:\wamp\www\Api...', 188, Array)
+#1 D:\wamp\www\ApiTest\Core\Db\ApiTable.php(188): Exception->__construct('Unknown column ...', '42S22')
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Book.php(33): Core_Db_ApiTable->insert(Array)
+#3 D:\wamp\www\ApiTest\ApiTest\App\Book\Comment.php(16): Service_Book->addPubBookComment('1', 'test', '27', '????????????', '4')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Comment->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-10 16:41:59]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'tag_id' => '26',
+  ),
+  'do' => 'book_commentlist',
+)
+------------------------------------------------------------------------------------
+Invalid Param [pub_id]
+D:\wamp\www\ApiTest\Core\ApiApplication.php Line 45
+#0 D:\wamp\www\ApiTest\Core\ApiApplication.php(14): Core_ApiApplication->getParams()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(72): Core_ApiApplication->__construct(Object(Core_ApiRequest))
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#3 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-10 16:42:10]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'pub_id' => '26',
+  ),
+  'do' => 'book_commentlist',
+)
+------------------------------------------------------------------------------------
+Undefined variable: list
+D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php Line 17
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php(17): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 17, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Book\Commentlist.php(14): Vo_BookComment::process(Object(Table_Bookcomment))
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Commentlist->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-10 16:43:03]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'pub_id' => '26',
+  ),
+  'do' => 'book_commentlist',
+)
+------------------------------------------------------------------------------------
+Undefined variable: list
+D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php Line 17
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php(17): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 17, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Book\Commentlist.php(14): Vo_BookComment::process(Object(Table_Bookcomment))
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Commentlist->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-10 16:43:26]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'pub_id' => '26',
+  ),
+  'do' => 'book_commentlist',
+)
+------------------------------------------------------------------------------------
+Undefined index: havenext
+D:\wamp\www\ApiTest\ApiTest\App\Book\Commentlist.php Line 16
+#0 D:\wamp\www\ApiTest\ApiTest\App\Book\Commentlist.php(16): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 16, Array)
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Commentlist->run()
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#3 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-10 16:46:53]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'pub_id' => '26',
+  ),
+  'do' => 'book_commentlist',
+)
+------------------------------------------------------------------------------------
+Undefined index: userid
+D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php Line 10
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php(10): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 10, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Book\Commentlist.php(14): Vo_BookComment::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Commentlist->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-10 16:47:10]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'pub_id' => '26',
+  ),
+  'do' => 'book_commentlist',
+)
+------------------------------------------------------------------------------------
+Undefined index: userid
+D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php Line 10
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php(10): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 10, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Book\Commentlist.php(14): Vo_BookComment::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Commentlist->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-10 16:47:30]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'pub_id' => '26',
+  ),
+  'do' => 'book_commentlist',
+)
+------------------------------------------------------------------------------------
+Undefined index: userid
+D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php Line 10
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\BookComment.php(10): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 10, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Book\Commentlist.php(14): Vo_BookComment::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Commentlist->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+

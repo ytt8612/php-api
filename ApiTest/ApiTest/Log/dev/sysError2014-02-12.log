@@ -1,0 +1,592 @@
+[2014-02-12 11:43:37]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+Undefined index: coin
+D:\wamp\www\ApiTest\ApiTest\Service\Pay.php Line 43
+#0 D:\wamp\www\ApiTest\ApiTest\Service\Pay.php(43): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 43, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php(24): Service_Pay->addUserCoin('1', 'pub_book', 0, 0, 1)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-12 11:44:34]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+Undefined index: coin
+D:\wamp\www\ApiTest\ApiTest\Service\Pay.php Line 44
+#0 D:\wamp\www\ApiTest\ApiTest\Service\Pay.php(44): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 44, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php(24): Service_Pay->addUserCoin('1', 'pub_book', 0, 0, 1)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-12 11:45:50]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+A non well formed numeric value encountered
+D:\wamp\www\ApiTest\Core\Db\ApiTable.php Line 244
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(8, 'A non well form...', 'D:\wamp\www\Api...', 244, Array)
+#1 D:\wamp\www\ApiTest\Core\Db\ApiTable.php(244): Exception->__construct('Unknown column ...', '42S22')
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Pay.php(62): Core_Db_ApiTable->update(Array)
+#3 D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php(24): Service_Pay->addUserCoin('1', 'pub_book', 0, 0, 1)
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-12 15:00:22]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+  ),
+  'do' => 'message_chat',
+)
+------------------------------------------------------------------------------------
+Undefined index: list
+D:\wamp\www\ApiTest\ApiTest\App\Message\Chat.php Line 14
+#0 D:\wamp\www\ApiTest\ApiTest\App\Message\Chat.php(14): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 14, Array)
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Chat->run()
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#3 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-12 15:00:33]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+  ),
+  'do' => 'message_chat',
+)
+------------------------------------------------------------------------------------
+Undefined index: user_id
+D:\wamp\www\ApiTest\ApiTest\Vo\MessageChat.php Line 11
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\MessageChat.php(11): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 11, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Message\Chat.php(14): Vo_MessageChat::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Chat->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-12 15:00:58]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+  ),
+  'do' => 'message_chat',
+)
+------------------------------------------------------------------------------------
+Undefined index: userid
+D:\wamp\www\ApiTest\ApiTest\Vo\MessageChat.php Line 11
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\MessageChat.php(11): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 11, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Message\Chat.php(14): Vo_MessageChat::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Chat->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-12 15:01:11]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+  ),
+  'do' => 'message_chat',
+)
+------------------------------------------------------------------------------------
+Undefined index: userid
+D:\wamp\www\ApiTest\ApiTest\Vo\MessageChat.php Line 12
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\MessageChat.php(12): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 12, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Message\Chat.php(14): Vo_MessageChat::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Chat->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-12 15:27:56]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'do' => 'message_contacts',
+)
+------------------------------------------------------------------------------------
+Undefined index: time
+D:\wamp\www\ApiTest\ApiTest\Vo\MessageContact.php Line 13
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\MessageContact.php(13): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 13, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\Message\Contacts.php(18): Vo_MessageContact::process(Array, Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Message_Contacts->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-12 16:39:23]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+    'coin' => '20',
+  ),
+  'do' => 'pay_rollout',
+)
+------------------------------------------------------------------------------------
+Undefined index: msg
+D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Rollout->run()
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#3 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-12 16:39:42]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+    'coin' => '20',
+  ),
+  'do' => 'pay_rollout',
+)
+------------------------------------------------------------------------------------
+乐享豆余额不足！
+D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php Line 24
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Rollout->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-12 16:43:11]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+    'coin' => '1',
+  ),
+  'do' => 'pay_rollout',
+)
+------------------------------------------------------------------------------------
+乐享豆余额不足！
+D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php Line 24
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Rollout->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-12 16:44:29]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+    'coin' => '1',
+  ),
+  'do' => 'pay_rollout',
+)
+------------------------------------------------------------------------------------
+乐享豆余额不足！
+D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php Line 24
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Rollout->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-12 16:44:30]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+    'coin' => '1',
+  ),
+  'do' => 'pay_rollout',
+)
+------------------------------------------------------------------------------------
+乐享豆余额不足！
+D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php Line 24
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Rollout->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-12 16:45:31]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+    'coin' => '1',
+  ),
+  'do' => 'pay_rollout',
+)
+------------------------------------------------------------------------------------
+乐享豆余额不足！
+D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php Line 24
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Rollout->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-12 16:45:32]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+    'coin' => '1',
+  ),
+  'do' => 'pay_rollout',
+)
+------------------------------------------------------------------------------------
+乐享豆余额不足！
+D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php Line 24
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Rollout->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-12 16:45:50]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+    'coin' => '1',
+  ),
+  'do' => 'pay_rollout',
+)
+------------------------------------------------------------------------------------
+乐享豆余额不足！
+D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php Line 24
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Rollout->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-12 16:46:04]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'data' => 
+  array (
+    'userid' => '3',
+    'coin' => '1',
+  ),
+  'do' => 'pay_rollout',
+)
+------------------------------------------------------------------------------------
+乐享豆余额不足！
+D:\wamp\www\ApiTest\ApiTest\App\pay\Rollout.php Line 24
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Rollout->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-12 17:16:55]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'do' => 'pay_logs',
+)
+------------------------------------------------------------------------------------
+Undefined index: content
+D:\wamp\www\ApiTest\ApiTest\Vo\PayLog.php Line 19
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\PayLog.php(19): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 19, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\pay\logs.php(17): Vo_PayLog::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Logs->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-12 17:17:21]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'do' => 'pay_logs',
+)
+------------------------------------------------------------------------------------
+Undefined index: content
+D:\wamp\www\ApiTest\ApiTest\Vo\PayLog.php Line 20
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\PayLog.php(20): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 20, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\pay\logs.php(17): Vo_PayLog::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Logs->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-02-12 17:17:43]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKBs9DqZfs36oRSaI0ATQfDCVyjf3u8pv8',
+  'do' => 'pay_logs',
+)
+------------------------------------------------------------------------------------
+Undefined index: time
+D:\wamp\www\ApiTest\ApiTest\Vo\PayLog.php Line 21
+#0 D:\wamp\www\ApiTest\ApiTest\Vo\PayLog.php(21): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\Api...', 21, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\pay\logs.php(17): Vo_PayLog::process(Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Pay_Logs->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+

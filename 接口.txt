@@ -1,0 +1,32 @@
+1.
+
+	 * 注册手机获取验证码接口
+	 * @dec 调用基础api 接口
+	 * @param string $phone 用户手机号
+	 * @param 	int $kine //类型, 1 => 注册, 2 => 修改密码, 3 => 找回密码
+	 * @return $result = array(
+	 *         'status' => 1 (1:成功， 0:失败),
+	 *         );
+
+  http://yiban.local/api/v1/security/authcode?phone=18516005286&kind=1
+
+2. 登陆 返回参数还在修改
+
+	 * 用户登录接口
+	 * 
+	 * @param string $account 账号
+	 * @param string $passwd 密码
+	 * @return array={ 'user'=>array() //用户信息,'access'=>''
+
+
+http://10.21.3.59:8888/api/v1/security/login?account=18516005286&passwd=123456
+
+3.access_token  学校列表
+
+	 * 获取学校列表接口
+	 * @param  string $access_token
+	 * @return array(
+	 *         'school_list'=>array()
+	 * )
+
+http://10.21.3.59:8888/api/v1/school/list?access_token=123456

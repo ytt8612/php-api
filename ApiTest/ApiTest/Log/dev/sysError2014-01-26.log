@@ -1,0 +1,46 @@
+[2014-01-26 17:22:36]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK%2F%2FjD4wKqfFam7Q3RQUuRSCVyjf3u8pv8',
+  'do' => 'book_reverce',
+)
+------------------------------------------------------------------------------------
+Invalid Do
+D:\wamp\www\ApiTest\Core\ApiDispatcher.php Line 70
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#1 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#2 {main}
+<===================================================================================
+
+
+[2014-01-26 17:49:26]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'book_li',
+)
+------------------------------------------------------------------------------------
+Invalid Do
+D:\wamp\www\ApiTest\Core\ApiDispatcher.php Line 70
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#1 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#2 {main}
+<===================================================================================
+
+

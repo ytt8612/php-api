@@ -1,0 +1,608 @@
+[2014-02-19 16:11:54]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pUVEevmaorJlzAWJrirB3IRorpehwWRe4hFpPLVT84Mhadj4GNKSao2mezVRkBsjVw%3D',
+  'data' => 
+  array (
+    'isbn' => '9787308083256',
+  ),
+  'do' => 'book_info',
+)
+------------------------------------------------------------------------------------
+SQLSTATE[HY000] [1049] Unknown database 'enjoy'
+D:\wamp\www\ApiTest\Core\Db\ApiConnection.php Line 20
+#0 D:\wamp\www\ApiTest\Core\Db\ApiConnection.php(20): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 D:\wamp\www\ApiTest\Core\Db\ApiTable.php(35): Core_Db_ApiConnection::getInstance('default')
+#2 D:\wamp\www\ApiTest\Core\Db\ApiTable.php(84): Core_Db_ApiTable->getConnection()
+#3 D:\wamp\www\ApiTest\Core\Db\ApiTable.php(97): Core_Db_ApiTable->_prepareQuery(NULL)
+#4 D:\wamp\www\ApiTest\ApiTest\Table\Sessionid.php(23): Core_Db_ApiTable->fetch()
+#5 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(187): Table_Sessionid->getUserByUserid('184747', 'r0dE7PP8fku')
+#6 D:\wamp\www\ApiTest\ApiTest\App\Book\Info.php(11): Service_Security->getInfoFromSessionId('vj32O9K74pUVEev...')
+#7 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Info->run()
+#8 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#9 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#10 {main}
+<===================================================================================
+
+
+[2014-02-19 16:27:05]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 230
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 230, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(230): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(194): Service_Security->generateSessionId('1', 9)
+#3 D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php(8): Service_Security->getInfoFromSessionId('vj32O9K74pWnXmB...')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:27:43]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 230
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 230, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(230): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(194): Service_Security->generateSessionId('1', 9)
+#3 D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php(8): Service_Security->getInfoFromSessionId('vj32O9K74pWnXmB...')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:27:43]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 230
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 230, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(230): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(194): Service_Security->generateSessionId('1', 9)
+#3 D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php(8): Service_Security->getInfoFromSessionId('vj32O9K74pWnXmB...')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:28:08]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:55]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:56]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:56]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:57]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:57]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:57]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:57]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:57]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:58]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:37:58]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:39:43]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:39:45]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+
+[2014-02-19 16:39:45]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'username' => 'test',
+    'password' => '11111',
+  ),
+  'do' => 'security_login',
+)
+------------------------------------------------------------------------------------
+MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use
+D:\wamp\www\ApiTest\ApiTest\Service\Security.php Line 116
+#0 [internal function]: Core_ApiErrorHandler::exceptionHandler(2, 'MemcachePool::s...', 'D:\wamp\www\Api...', 116, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(116): MemcachePool->set('SESSID_1_r0dE7P...', 'vj32O9K74pWnXmB...', 86400)
+#2 D:\wamp\www\ApiTest\ApiTest\Service\Security.php(38): Service_Security->loginSessionId('1')
+#3 D:\wamp\www\ApiTest\ApiTest\App\Security\Login.php(10): Service_Security->login('test', '11111')
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Security_Login->run()
+#5 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#6 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#7 {main}
+<===================================================================================
+
+

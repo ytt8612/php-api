@@ -1,0 +1,919 @@
+[2014-01-27 09:43:13]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+图书不能重复发布上架图书
+D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php Line 18
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-01-27 09:43:53]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+图书不能重复发布上架图书
+D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php Line 18
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-01-27 09:44:00]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+图书不能重复发布上架图书
+D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php Line 18
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-01-27 09:44:17]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+图书不能重复发布上架图书
+D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php Line 18
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-01-27 13:07:23]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+图书不能重复发布上架图书
+D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php Line 18
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-01-27 13:28:18]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-01-27 13:58:47]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+发表内容不能为空
+D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php Line 19
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-01-27 13:59:28]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+发表内容不能为空
+D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php Line 19
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-01-27 14:01:32]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Invalid Image data
+D:\wamp\www\ApiTest\Core\ApiRequest.php Line 221
+#0 D:\wamp\www\ApiTest\Core\ApiRequest.php(114): Core_ApiRequest->_fixFiles()
+#1 D:\wamp\www\ApiTest\Core\ApiSingleton.php(8): Core_ApiRequest->__construct()
+#2 D:\wamp\www\ApiTest\Core\ApiRequest.php(26): Core_ApiSingleton::getInstance()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(7): Core_ApiRequest::getInstance()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:01:41]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Invalid Image data
+D:\wamp\www\ApiTest\Core\ApiRequest.php Line 221
+#0 D:\wamp\www\ApiTest\Core\ApiRequest.php(114): Core_ApiRequest->_fixFiles()
+#1 D:\wamp\www\ApiTest\Core\ApiSingleton.php(8): Core_ApiRequest->__construct()
+#2 D:\wamp\www\ApiTest\Core\ApiRequest.php(26): Core_ApiSingleton::getInstance()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(7): Core_ApiRequest::getInstance()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:11:29]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Invalid Image data
+D:\wamp\www\ApiTest\Core\ApiRequest.php Line 221
+#0 D:\wamp\www\ApiTest\Core\ApiRequest.php(114): Core_ApiRequest->_fixFiles()
+#1 D:\wamp\www\ApiTest\Core\ApiSingleton.php(8): Core_ApiRequest->__construct()
+#2 D:\wamp\www\ApiTest\Core\ApiRequest.php(26): Core_ApiSingleton::getInstance()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(7): Core_ApiRequest::getInstance()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:19:11]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 23
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(23): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 23, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(24): Service_User->addUserPic('1', 'D')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:20:02]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(24): Service_User->addUserPic('1', 'D')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:20:36]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(25): Service_User->addUserPic('1', 'D')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:21:07]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(25): Service_User->addUserPic('1', 'D')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:21:25]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(26): Service_User->addUserPic('1', 'D')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:22:24]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(26): Service_User->addUserPic('1', 'D')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:22:53]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(25): Service_User->addUserPic('1', 'D')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:23:18]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(26): Service_User->addUserPic('1', 'D')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:24:49]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(26): Service_User->addUserPic('1', Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:25:07]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(26): Service_User->addUserPic('1', Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:25:29]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(25): Service_User->addUserPic('1', Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:25:59]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(26): Service_User->addUserPic('1', Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:27:29]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(27): Service_User->addUserPic('1', Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:27:50]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(26): Service_User->addUserPic('1', Array)
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:28:28]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(27): Service_User->addUserPic('1', 'D:\wamp\tmp\php...')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:29:12]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(28): Service_User->addUserPic('1', 'D:\wamp\tmp\php...')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:29:31]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 24
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(24): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 24, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(28): Service_User->addUserPic('1', 'D:\wamp\tmp\php...')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:30:27]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 23
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(23): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 23, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(28): Service_User->addUserPic('1', 'D:\wamp\tmp\php...')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:31:09]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: 1
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 23
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(23): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 23, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(28): Service_User->addUserPic('1', 'D:\wamp\tmp\php...')
+#2 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 14:31:52]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Invalid Image data
+D:\wamp\www\ApiTest\Core\ApiRequest.php Line 230
+#0 D:\wamp\www\ApiTest\Core\ApiRequest.php(114): Core_ApiRequest->_fixFiles()
+#1 D:\wamp\www\ApiTest\Core\ApiSingleton.php(8): Core_ApiRequest->__construct()
+#2 D:\wamp\www\ApiTest\Core\ApiRequest.php(26): Core_ApiSingleton::getInstance()
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(7): Core_ApiRequest::getInstance()
+#4 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
+[2014-01-27 15:49:48]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+发表内容不能为空
+D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php Line 21
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-01-27 15:50:39]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+Undefined variable: v
+D:\wamp\www\ApiTest\ApiTest\Service\User.php Line 36
+#0 D:\wamp\www\ApiTest\ApiTest\Service\User.php(36): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined varia...', 'D:\wamp\www\Api...', 36, Array)
+#1 D:\wamp\www\ApiTest\ApiTest\Service\User.php(27): Service_User->creatThumbPi('d:\wamp\www\Api...', 'd:\wamp\www\Api...', '1')
+#2 D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php(28): Service_User->addUserPic('1', 'D:\wamp\tmp\php...')
+#3 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#4 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#5 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#6 {main}
+<===================================================================================
+
+
+[2014-01-27 16:50:49]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgKbJqvu%2F5KNO9VX49apePHOiVyjf3u8pv8',
+  'do' => 'user_uploadavatar',
+)
+------------------------------------------------------------------------------------
+发表内容不能为空
+D:\wamp\www\ApiTest\ApiTest\App\User\Uploadavatar.php Line 21
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_User_Uploadavatar->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+

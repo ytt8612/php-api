@@ -1,0 +1,475 @@
+[2014-02-13 10:25:35]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:30:13]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:37:34]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:37:36]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:37:41]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:38:36]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:42:05]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:42:07]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:42:11]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:42:38]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:42:53]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:43:18]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 10:45:13]==============================================================>
+NULL
+------------------------------------------------------------------------------------
+Invalid Request
+D:\wamp\www\bbs_new\ApiTest\Core\ApiRequest.php Line 51
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiSingleton.php(8): Core_ApiRequest->__construct()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiRequest.php(26): Core_ApiSingleton::getInstance()
+#2 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(7): Core_ApiRequest::getInstance()
+#3 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#4 {main}
+<===================================================================================
+
+
+[2014-02-13 10:46:46]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-13 15:39:43]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+

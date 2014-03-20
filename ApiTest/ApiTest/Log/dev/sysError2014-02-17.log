@@ -1,0 +1,63 @@
+[2014-02-17 10:14:46]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => '',
+  'data' => 
+  array (
+    'book_id' => '21',
+    'lent_way' => '1',
+    'remark' => '我的第一本图书',
+    'deposit' => 20,
+    'loan_period' => 20,
+    'public' => '1',
+  ),
+  'do' => 'book_upload',
+)
+------------------------------------------------------------------------------------
+sessId无效或者过期，请重新登录
+D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\Upload.php Line 10
+#0 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_Upload->run()
+#1 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#2 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#3 {main}
+<===================================================================================
+
+
+[2014-02-17 13:24:38]==============================================================>
+array (
+  'ct' => '2',
+  'rv' => 'AppStore',
+  'v' => '3.1.0',
+  'apn' => 'wifi',
+  'identify' => 'r0dE7PP8fku',
+  'imei' => 'r0dE7PP8fku',
+  'token' => '',
+  'device' => 'iphon4s',
+  'sversion' => 'ios6.0.2',
+  'sessID' => 'vj32O9K74pWnXmB3Ysgj01ZYD9f6KAgK0CyGYbJo0YSOakpfhTEhWiVyjf3u8pv8',
+  'data' => 
+  array (
+    'tag_id' => '26',
+  ),
+  'do' => 'book_list',
+)
+------------------------------------------------------------------------------------
+Undefined index: loan_status
+D:\wamp\www\bbs_new\ApiTest\ApiTest\Vo\BookList.php Line 21
+#0 D:\wamp\www\bbs_new\ApiTest\ApiTest\Vo\BookList.php(21): Core_ApiErrorHandler::exceptionHandler(8, 'Undefined index...', 'D:\wamp\www\bbs...', 21, Array)
+#1 D:\wamp\www\bbs_new\ApiTest\ApiTest\App\Book\List.php(13): Vo_BookList::process(Array)
+#2 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(73): App_Book_List->run()
+#3 D:\wamp\www\bbs_new\ApiTest\Core\ApiDispatcher.php(28): Core_ApiDispatcher::dispatchCgi()
+#4 D:\wamp\www\bbs_new\ApiTest\ApiTest\index_dev.php(11): Core_ApiDispatcher::dispatch()
+#5 {main}
+<===================================================================================
+
+
